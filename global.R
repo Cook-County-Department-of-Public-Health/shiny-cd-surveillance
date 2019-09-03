@@ -1,0 +1,11 @@
+require(shiny)
+require(plotly)
+library(rgdal)
+library(leaflet)
+require(magrittr)
+library(tidyr)
+library(htmlwidgets)
+library(kableExtra)
+library(ggthemes)
+load("surveillanceApp.RData")
+
