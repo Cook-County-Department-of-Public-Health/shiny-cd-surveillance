@@ -673,7 +673,7 @@ server <- function(input, output, session) {
   })
   
 
-  ############################## OUTBREAKS TABLE #############################################
+  ############################## OUTBREAKS TAB #############################################
   output$outbreaks <- function(){
     outbreaks%>%
       kable(escape = F, align = "c") %>%
@@ -698,6 +698,7 @@ server <- function(input, output, session) {
                 )) +
       geom_bar(stat='identity')+
       scale_fill_manual(values = plot_cols[temp$Mode]) +
+      scale_x_discrete(drop=FALSE) +
       xlab("") + ylab("") +
       facet_wrap(~Year, strip.position = "bottom", nrow=1) +
       theme_minimal() +

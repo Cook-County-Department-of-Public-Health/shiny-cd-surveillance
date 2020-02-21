@@ -87,7 +87,16 @@ ui <- fluidPage(
                                         and the time the local health department receives the report. Additionally, 
                                         persons with asymptomatic infections may be underrepresented in surveillance 
                                         reports because many such individuals may not seek care, may remain undiagnosed, 
-                                        and, consequently, unreported."), br(), br(), br()))
+                                        and, consequently, unreported."), br(), 
+                                      p("This application is currently in beta testing. Please click ", 
+                                        a(href = "mailto:hannah.steinberg@cookcountyhhs.org?Subject=Shiny%20Surveillance%20App", "here"), 
+                                        " to send comments, feedback, or technical questions. Source code for this application can be found ",
+                                        a(href = "https://github.com/hsteinberg/CCDPH-CD-Surveillance", "here.", target="_blank"), 
+                                        "If you like this app, click", a(href = "https://ccdphcd.shinyapps.io/home/", "here", target="_blank"), 
+                                        "to see more interactive data applications from the Cook County Department of Public Health
+                                        Communicable Disease Unit!",
+                                        align = "justify", style = "padding-bottom: 10px;padding-top: 10px;text-align: center; background:  #EAF5FF;border: 3px solid #D5E2EF;font-size: 12px; padding-left: 10px; padding-right: 10px;"),
+                                      br(),br(), br()))
                                       
                                       
                                       
