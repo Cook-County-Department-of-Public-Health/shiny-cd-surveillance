@@ -6,4 +6,4 @@ Data is not included in the repository; however, visitors are welcome to view an
 
 The application is live [here](https://ccdphcd.shinyapps.io/cd-surveillance/), but still under development so errors/inefficiencies might be noted. Feedback to improve the code is welcome.
 
-Questions and comments on this project can be directed to [hannah.steinberg@cookcountyhhs.org](mailto:hannah.steinberg@cookcountyhhs.org).
+
