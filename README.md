@@ -4,6 +4,5 @@ The Cook County Department of Public Health (CCDPH) continuously collects data o
 
 Data is not included in the repository; however, visitors are welcome to view and borrow code.
 
-The application is live [here](https://ccdphcd.shinyapps.io/cd-surveillance/), but still under development so errors/inefficiencies might be noted. Feedback to improve the code is welcome.
-
+The application is live [here](https://ccdphcd.shinyapps.io/cd-surveillance/), but still under development so errors/inefficiencies might be noted. 
 
